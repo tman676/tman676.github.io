@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV — Thomas J. Hughes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="site">
+      <div class="brand"><a class="brand-link" href="index.html">Thomas J. Hughes</a></div>
+      <nav class="primary" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a class="active" href="cv.html">CV</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Curriculum Vitae</h1>
+    <div class="cv-actions">
+      <a href="cv.pdf" download>Download PDF</a>
+      <a href="cv.pdf" target="_blank" rel="noopener">Open in new tab</a>
+    </div>
+    <object class="cv-frame" data="cv.pdf" type="application/pdf">
+      <p>
+        Your browser does not support inline PDFs.
+        <a href="cv.pdf">Download the CV (PDF)</a>.
+      </p>
+    </object>
+
+    <footer class="site">
+      &copy; <span id="year"></span> Thomas J. Hughes
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
