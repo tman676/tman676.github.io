@@ -141,7 +141,7 @@ ul.items > li {
 ul.items > li:last-child { border-bottom: none; }
 
 .term {
-  padding-left: 1.5rem;
+  padding-left: 0.5in;
 }
 
 .meta {
